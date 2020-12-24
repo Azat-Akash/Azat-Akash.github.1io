@@ -127,4 +127,30 @@
         width: 100%;
         max-width: 320px;
     }
+
+    .header-arrow{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+    .card:hover{
+        transform: translateY(0);
+        box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    }
+
+    .card-link:hover{
+        color: inherit;
+    }
+
+    .social-icon:hover{
+        box-shadow: none;
+        transform: none;
+    }
+
+    .footer-button:hover{
+        background-color: inherit;
+        color: inherit;
 }
