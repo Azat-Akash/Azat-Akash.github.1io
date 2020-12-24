@@ -3,43 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вебкадеми тестовый сервер</title>
+    <title>Azat Akash CV</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header class="header">
+   <header class="header" id="header">
         <h1 class="header-title">Азат Акаш</h1>
-        <p class="header-subtitle">фрилансер, веб-разработчик,создание сайтов</p>
-        <div class="header-arrow">
-            <img src="./img/header/chevron-down.svg" alt="arrow">
-        </div>
+        <p class="header-subtitle">Верстальщик, веб-разработчик, создание сайтов</p>
+        
+        <a href="#portfolio" class="header-arrow">
+            <img src="./img/header/chevron-down.svg" alt="arrow" >
+        </a>
    </header>
 <!------------------------- header ---------------------->
-<main >
-   <section class="portfolio"> 
+    <main>
+   <section class="portfolio" id="portfolio"> 
         <div class="container">
             <h2 class="portfolio-header">Портфолио</h2>
 
             <div class="portfolio-card-wrapper">
-                <div class="card">
-                    <a href="forest-travel.html" class="card-link">
-                        <img src="./img/portfolio/Group 5.jpg" alt="многостраничный сайт" class="card-image">
-                        <h3 class="card-title">Многостраничный сайт</h3>
-                        <p>Верстка многостраничного сайта.</p>
-                    </a>
-                </div>
-                    <!----------- card --------------->
-                <div class="card">
-                    <a href="forest-travel.html" class="card-link">
-                        <img src="./img/portfolio/Group 6.jpg" alt="Адаптивный лендинг" class="card-image">
-                        <h3 class="card-title">Адаптивный лендинг</h3>
-                        <p>Верстка многостраничного сайта.</p>
-                    </a>
-                </div>
-                    <!----------- card --------------->
+                
                 <div class="card">
                     <a href="forest-travel.html" class="card-link">
                         <img src="./img/portfolio/Group 7.jpg" alt="Личный сайт " class="card-image">
@@ -50,8 +36,24 @@
                     <!----------- card --------------->
                 <div class="card">
                     <a href="forest-travel.html" class="card-link">
+                        <img src="./img/portfolio/Group 6.jpg" alt="Адаптивный лендинг" class="card-image">
+                        <h3 class="card-title">Адаптивный лендинг</h3>
+                        <p>Быстрая и эффективная верстка сайтов</p>
+                    </a>
+                </div>
+                    <!----------- card --------------->
+                <div class="card">
+                    <a href="forest-travel.html" class="card-link">
+                        <img src="./img/portfolio/Group 5.jpg" alt="многостраничный сайт" class="card-image">
+                        <h3 class="card-title">Место под ваш заказ</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
+                </div>
+                        <!----------- card --------------->
+                <div class="card">
+                    <a href="forest-travel.html" class="card-link">
                         <img src="./img/portfolio/Group 8.jpg" alt="Интернет магазин" class="card-image">
-                        <h3 class="card-title">Интернет магазин</h3>
+                        <h3 class="card-title">Место под ваш заказ</h3>
                         <p>Верстка многостраничного сайта.</p>
                     </a>
                 </div>
@@ -59,7 +61,7 @@
             </div>
         </div>
    </section>
-</main>
+    </main>
 
    <footer class="footer">
         <div class="container">
@@ -73,26 +75,26 @@
                 <div class="footer-icons footer-col">
                     <p>Мои профили в социальных сетях:</p>
                     <div class="footer-icons-link">
-                         <a href="#">
+                         <a href="https://www.instagram.com/wd_aa1/" target="_blank">
                             <img src="./img/social/instagram.svg" alt="" class="social-icon">
                          </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100030518883974" target="_blank">
                             <img src="./img/social/facebook.svg" alt="" class="social-icon">
                         </a>
-                         <a href="#">
+                         <a href="https://vk.com/ax2e2" target="_blank">
                             <img src="./img/social/vk.svg" alt="" class="social-icon">
                          </a>
-                        <a href="#">
-                            <img src="./img/social/linkedin-in.svg" alt="" class="social-icon">
+                        <a href="https://t.me/Azat_Akash" target="_blank">
+                            <img src="./img/social/telegram.png" alt="" class="social-icon extra">
                         </a>
-                         <a href="#">
-                            <img src="./img/social/github.svg" alt="" class="social-icon">
+                         <a href="https://github.com/Azat-Akash" target="_blank">
+                            <img src="./img/social/github.svg" alt="" class="social-icon circle">
                          </a>
                     </div>
                 </div>
 
                 <div class="footer-contacts footer-col">
-                    <a href="#" class="footer-button">
+                    <a href="https://vk.com/ax2e2" class="footer-button" target="_blank">
                         Связаться Вконтакте
                     </a>
                     <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</p>
@@ -102,7 +104,12 @@
         </div>      <!--container--->
     </footer>      <!--footer--->
 
+    <!-- Библиотеки и плагины -->
+    <script src="./libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
 
+    <!-- скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
 
 </body>
 </html>

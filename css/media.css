@@ -16,6 +16,19 @@
         text-align: center;
     }
 
+    .footer-icons-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-copyright{
+        padding-left: 0;
+    }
+
+    .footer-contacts{
+        margin-bottom: 10px;
+    }
+
     .footer-col{
         margin-bottom: 20px;
     }
