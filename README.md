@@ -1,1 +1,0 @@
-# Azat-Akash.github.io
